@@ -10,3 +10,11 @@ function diff(a, b ) {
 }
 
 
+function sayHi() {
+    return new Promise(res => {
+        setTimeout(() => res('hi'), 1000)
+    }) 
+}
+
+
+
